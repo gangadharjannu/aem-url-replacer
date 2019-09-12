@@ -1,0 +1,15 @@
+{
+    "name": "AEM URL replacer",
+    "version": "0.1",
+    "description": "This extension will check for the AEM URL and adds `.html` which fixes broken navigation between pages",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "webNavigation"
+    ],
+    "manifest_version": 2
+}
